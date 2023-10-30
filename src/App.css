@@ -1,0 +1,194 @@
+*{
+    /* border: 1px solid; */
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    height: 100vh;
+}
+.header{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.contacts{
+    height: fit-content;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+.contacts p{
+    font-size: x-large;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid rgb(106, 106, 106);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    height: fit-content;
+    width: 100%;
+}
+.dropdown ul{
+    position: absolute;
+    border-radius: 5px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 5px;
+}
+ul > li{
+    margin-bottom: 5px;
+    color: rgb(56, 56, 56);
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    list-style-type: none;
+    display: none;
+    cursor: pointer;
+}
+.dropdown:hover ul > li{
+    display: block;
+}
+
+.contain{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_cont{
+    height: 90vh;
+    width: 50%;
+    background-color: #E6DACE;
+}
+.card{
+    position: absolute;
+    display: flex;
+    top: 70px;
+    left: 33%;
+    height: 450px;
+    width: 60%;
+    /* box-shadow: -7px 7px 10px rgb(169, 169, 169) ; */
+}
+.left{
+    background-color: #F4EDE7;
+    box-shadow: -6px 6px 15px rgb(106, 106, 106) ;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+}
+.image{
+    height: 170px;
+    width: 170px;
+    background-image: url('/src/assets/for_samp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.name{
+    height: fit-content;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+.anonymous{
+    border: 1px solid blue;
+    width: 25%;
+}
+.role{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: large;
+}
+.main_cont_footer{
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+.hello{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.objective p{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buttons{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.but1, .but2{
+    border-radius: 30px;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+.but1{
+    color: #ffffff;
+    background: #014DFD;
+}
+.but2{
+    background-color: #ffffff;
+    border: 2px solid;
+}
+.but1:hover, .but2:hover{
+    opacity: 0.8;
+    transition: 300ms;
+}
+.para{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.back_cont{
+    height: 90vh;
+    width: 50%;
+}
